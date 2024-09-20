@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Shoes Store</title>
-<link rel="stylesheet" href="styles/homepage.css">
+<link rel="stylesheet" href="styles/homepage-style.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script
@@ -43,7 +43,7 @@
 		</div>
 	</nav>
 
-	<div class="container-fluid text-background">
+	<div class="text-background">
 		<h1>INTRODUCING MB.04 LAFRANCÉ</h1>
 		<h3>BY LAMELO BALL</h3>
 		<p>
@@ -51,7 +51,7 @@
 			double-layered mesh upper<br>and NITROFOAM™ for on-court power.
 		</p>
 	</div>
-	<div class="container-fluid title">
+	<div class="title">
 		<h3>MB.04 HAS LANDED</h3>
 		<p>// ADD YOUR PHOTO //</p>
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -65,10 +65,9 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 
-
 				<!-- SLIDE 1 -->
 				<div class="item active">
-					<div class="row item-row">
+					<div class="row">
 						<div class="col-sm-3">
 							<img
 								src="https://static.pxlecdn.com/photos/690743301/original/966434ab0c6a0591f3e2.jpg"
@@ -101,7 +100,7 @@
 
 				<!-- SLIDE 2 -->
 				<div class="item">
-					<div class="row item-row">
+					<div class="row">
 						<div class="col-sm-3">
 							<img
 								src="https://static.pxlecdn.com/photos/687979212/original/0ce57e9bc10b7d1d8af5.jpg"
@@ -140,7 +139,7 @@
 
 				<!-- SLIDE 3 -->
 				<div class="item">
-					<div class="row item-row">
+					<div class="row">
 						<div class="col-sm-3">
 							<a
 								href="https://static.pxlecdn.com/photos/688010629/original/ee3bdd219fd42f55562e.mp4">
@@ -189,8 +188,8 @@
 			</a>
 		</div>
 	</div>
-
-	<div class="container-fluid text-background-lamelo">
+	
+	<div class="text-background-lamelo">
 		<h1>LAFRANCÉ 1:1</h1>
 		<h3>BY LAMELO BALL</h3>
 		<button type="button" class="btn btn-default btn-sm">
@@ -198,7 +197,7 @@
 		</button>
 	</div>
 
-	<div class="container-fluid text-background-sale">
+	<div class="text-background-sale">
 		<h1>40% OFF FULL PRICE</h1>
 		<h1>30% OFF SALE ITEMS</h1>
 		<h3>USE CODE: PUMAFNF</h3>
@@ -211,7 +210,7 @@
 		</button>
 	</div>
 
-	<div class="container-fluid text-background-book">
+	<div class="text-background-book">
 		<h1>ELEVATED CLASSICS</h1>
 		<h3>FOR THE SUPERFAN</h3>
 		<button type="button" class="btn btn-default btn-sm">
@@ -222,11 +221,11 @@
 		</button>
 	</div>
 
-	<div class="container-fluid horizontal-scrollable">
+	<div class="horizontal-scrollable">
 		<h3>CURRENT MUST-HAVES</h3>
 		<div class="scrollable-content">
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-1"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/310525/01/sv01/fnd/PNA/fmt/png/STEWIE-x-HARRY-POTTER™-Stewie-3-Women's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -243,8 +242,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/310866/01/sv01/fnd/PNA/fmt/png/PUMA-x-LAMELO-BALL-LaFrancé-1-of-1-Men's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -260,8 +259,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/395205/01/sv01/fnd/PNA/fmt/png/Suede-XL-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -275,8 +274,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/400331/01/sv01/fnd/PNA/fmt/png/Easy-Rider-SN-Women's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -290,8 +289,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/399434/01/sv01/fnd/PNA/fmt/png/PUMA-x-ROCKET-LEAGUE-Palermo-Men's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -307,8 +306,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/399432/01/sv01/fnd/PNA/fmt/png/PUMA-x-ROCKET-LEAGUE-RS-X-Men's-Sneakers's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -322,8 +321,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/399028/01/sv01/fnd/PNA/fmt/png/Easy-Rider-Vintage-Sneakers's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -339,8 +338,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/398656/01/sv01/fnd/PNA/fmt/png/Suede-Trippy-Sneakers's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -354,8 +353,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/392725/28/sv01/fnd/PNA/fmt/png/Blktop-Rider-Men's-Sneakers's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -369,8 +368,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/380190/01/sv01/fnd/PNA/fmt/png/CA-Pro-Classic-Sneakers's-Sneakers's-Sneakers's-Sneakers's-Basketball-Shoes"
 						class="thumbnail-image">
@@ -384,8 +383,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-4 product-item">
-				<div class="img-thumbnail img-fluid thumbnail-container">
+			<div class="col-xs-4">
+				<div class="thumbnail-container">
 					<img alt="shoe-2"
 						src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1050,h_1050/global/310775/01/sv01/fnd/PNA/fmt/png/PUMA-x-LAMELO-BALL-MB.04-LaFrancé-1-of-1-Big-Kids'-Basketball-Shoes"
 						class="thumbnail-image">
@@ -527,5 +526,6 @@
 				</div>
 			</div>
 		</div>
+	</div>
 </body>
 </html>
